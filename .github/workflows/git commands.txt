@@ -1,0 +1,22 @@
+Git will start tracking all changes in the current folder.
+-git init
+
+Create Own Clone of existing repository:
+-git clone <url> <folder_name>
+-git clone https://wkaxcess.visualstudio.com/Fixed%20Assets%20Manager/_git/Git_Fixed%20Assets%20Manager Git_Fixed_Assets_Manager
+
+switch from one branch to another:
+-git checkout <branch name>
+
+Push from branch to master branch:
+-git push origin ravi_branch
+//After that create pull request to merge into master after aproval from other member
+
+get the status on the branch or workspace if anything need to add, commit or push:
+-git status
+
+commit data into local repo from workspace:
+-git commit -m "comment here why/what committing"
+
+Adding files into local workspace for committing
+-git add <. or folder_name> 
